@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+
+    tools:context="com.example.p180111.perfectnote.keyboard"
+    android:baselineAligned="false"
+    android:weightSum="1">
+    <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="35dp"
+        android:layout_height="340dp"
+        android:text="c"
+        android:background="@drawable/whitekey"
+        android:id="@+id/c" />
+
+    <Button
+        android:id="@+id/csharp"
+        android:layout_width="44dp"
+        android:layout_height="89dp"
+        android:background="@drawable/blackkey"
+        android:text="c#"
+        android:textColor="@color/white"
+        android:layout_weight="1.22" />
+
+    <Button
+        android:id="@+id/d"
+        android:layout_width="33dp"
+        android:layout_height="260dp"
+        android:text="d" />
+
+    <Button
+        android:id="@+id/e"
+        android:layout_width="35dp"
+        android:layout_height="340dp"
+        android:text="e" />
+
+    <Button
+        android:id="@+id/f"
+        android:layout_width="35dp"
+        android:layout_height="340dp"
+        android:text="f" />
+
+    <Button
+        android:id="@+id/g"
+        android:layout_width="35dp"
+        android:layout_height="340dp"
+        android:text="g" />
+
+
+    <Button
+        android:layout_width="35dp"
+        android:layout_height="340dp"
+        android:id="@+id/a"
+        android:text="a"/>
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="35dp"
+        android:layout_height="340dp"
+        android:text="b" />
+
+    <Button
+        android:id="@+id/c2"
+        android:layout_width="35dp"
+        android:layout_height="340dp"
+        android:text="c" />
+
+    <Button
+        android:id="@+id/d2"
+        android:layout_width="35dp"
+        android:layout_height="340dp"
+        android:text="d" />
+
+
+    <Button
+        android:layout_width="35dp"
+        android:layout_height="340dp"
+        android:id="@+id/e2"
+        android:text="e"/>
+
+    <Button
+        android:id="@+id/f2"
+        android:layout_width="35dp"
+        android:layout_height="340dp"
+        android:text="f" />
+
+
+    <Button
+        android:layout_width="35dp"
+        android:layout_height="340dp"
+        android:id="@+id/g2"
+        android:text="g"/>
+
+    <Button
+        android:id="@+id/a2"
+        android:layout_width="35dp"
+        android:layout_height="340dp"
+        android:text="a" />
+
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="35dp"
+        android:layout_height="340dp"
+        android:text="b" />
+
+
+    <Button
+        android:layout_width="35dp"
+        android:layout_height="340dp"
+        android:id="@+id/c3"
+        android:text="c"/>
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

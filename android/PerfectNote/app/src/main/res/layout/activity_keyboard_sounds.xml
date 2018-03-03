@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lynnm.perfectnote.Keyboard_sounds">
+
+        <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:weightSum="8"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="50dp"
+            android:text="a"
+            android:id="@+id/a"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+          />
+        <Button
+            android:layout_width="50dp"
+            android:text="b"
+            android:id="@+id/b"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+          />
+        <Button
+            android:layout_width="50dp"
+            android:text="c"
+            android:id="@+id/c"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+             />
+        <Button
+            android:layout_width="50dp"
+            android:text="d"
+            android:id="@+id/d"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+             />
+        <Button
+            android:layout_width="50dp"
+            android:text="e"
+            android:id="@+id/e"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+             />
+        <Button
+            android:layout_width="50dp"
+            android:text="f"
+            android:id="@+id/f"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+             />
+        <Button
+            android:layout_width="50dp"
+            android:text="g"
+            android:id="@+id/g"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+           />
+        </LinearLayout>
+
+
+
+</RelativeLayout>

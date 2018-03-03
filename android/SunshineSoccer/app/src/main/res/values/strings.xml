@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SunshineSoccer</string>
+    <string name="shot_message">Shots: </string>
+    <string name="goal_message">Goals: </string>
+</resources>

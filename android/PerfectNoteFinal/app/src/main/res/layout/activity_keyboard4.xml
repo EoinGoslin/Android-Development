@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="landscape"
+    tools:context="com.example.p180111.perfectnote.keyboard"
+    android:baselineAligned="false"
+    android:weightSum="1"
+    android:background="@drawable/table">
+
+
+    <Button
+        android:id="@+id/g"
+        android:layout_width="56dp"
+        android:layout_height="268dp"
+        android:layout_marginRight="287dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/whitekey"
+        android:forceHasOverlappingRendering="false"
+        android:text="g"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/a"
+        android:layout_width="56dp"
+        android:layout_height="268dp"
+        android:layout_marginRight="231dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/whitekey"
+        android:forceHasOverlappingRendering="false"
+        android:text="a"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/c2"
+        android:layout_width="56dp"
+        android:layout_height="268dp"
+        android:layout_marginRight="119dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/whitekey"
+        android:forceHasOverlappingRendering="false"
+        android:text="c"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/c"
+        android:layout_width="56dp"
+        android:layout_height="268dp"
+        android:layout_marginRight="511dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/whitekey"
+        android:forceHasOverlappingRendering="false"
+        android:text="c"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="56dp"
+        android:layout_height="268dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/whitekey"
+        android:forceHasOverlappingRendering="false"
+        android:text="b"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginRight="175dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/d"
+        android:layout_width="56dp"
+        android:layout_height="268dp"
+        android:background="@drawable/whitekey"
+        android:layout_marginTop="25dp"
+        android:forceHasOverlappingRendering="false"
+        android:text="d"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginRight="455dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+
+    <Button
+        android:id="@+id/csharp"
+        android:layout_width="42dp"
+        android:layout_height="92dp"
+        android:text="c #"
+        android:textColor="@color/white"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        android:background="@drawable/blackkey"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="25dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="487dp" />
+
+    <Button
+        android:id="@+id/e"
+        android:layout_width="56dp"
+        android:layout_height="268dp"
+        android:background="@drawable/whitekey"
+        android:layout_marginTop="25dp"
+        android:forceHasOverlappingRendering="false"
+        android:text="e"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginRight="399dp"
+        app:layout_constraintRight_toRightOf="parent" />
+    <Button
+        android:id="@+id/dsharp"
+        android:layout_width="42dp"
+        android:layout_height="92dp"
+        android:text="d #"
+        android:textColor="@color/white"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        android:background="@drawable/blackkey"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="25dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="430dp" />
+    <Button
+        android:id="@+id/f"
+        android:layout_width="56dp"
+        android:layout_height="268dp"
+        android:background="@drawable/whitekey"
+        android:layout_marginTop="25dp"
+        android:forceHasOverlappingRendering="false"
+        android:text="f"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginRight="343dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="1.0" />
+    <Button
+        android:id="@+id/fsharp"
+        android:layout_width="42dp"
+        android:layout_height="92dp"
+        android:background="@drawable/blackkey"
+        android:layout_marginTop="25dp"
+        android:forceHasOverlappingRendering="false"
+        android:text="f #"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginRight="320dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/gsharp"
+        android:layout_width="42dp"
+        android:layout_height="92dp"
+        android:background="@drawable/blackkey"
+        android:layout_marginTop="25dp"
+        android:forceHasOverlappingRendering="false"
+        android:text="g #"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginRight="266dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/asharp"
+        android:layout_width="42dp"
+        android:layout_height="92dp"
+        android:background="@drawable/blackkey"
+        android:layout_marginTop="25dp"
+        android:forceHasOverlappingRendering="false"
+        android:text="A #"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginRight="209dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

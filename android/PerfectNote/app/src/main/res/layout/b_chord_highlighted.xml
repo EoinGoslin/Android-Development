@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="landscape"
+    tools:context="com.example.p180111.perfectnote.keyboard"
+    android:baselineAligned="false"
+    android:weightSum="1"
+    android:background="@drawable/table">
+
+
+    <ImageView
+        android:id="@+id/g"
+        android:layout_width="56dp"
+        android:layout_height="268dp"
+        android:layout_marginRight="287dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/whitekey"
+        android:forceHasOverlappingRendering="false"
+        android:text="g"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <ImageView
+        android:id="@+id/a"
+        android:layout_width="56dp"
+        android:layout_height="268dp"
+        android:layout_marginRight="231dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/whitekey"
+        android:forceHasOverlappingRendering="false"
+        android:text="a"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <ImageView
+        android:id="@+id/c2"
+        android:layout_width="56dp"
+        android:layout_height="268dp"
+        android:layout_marginRight="119dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/whitekey"
+        android:forceHasOverlappingRendering="false"
+        android:text="c"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <ImageView
+        android:id="@+id/c"
+        android:layout_width="56dp"
+        android:layout_height="268dp"
+        android:layout_marginRight="511dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/whitekey"
+        android:forceHasOverlappingRendering="false"
+        android:text="c"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <ImageView
+        android:id="@+id/b"
+        android:layout_width="56dp"
+        android:layout_height="268dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/whitekey"
+        android:forceHasOverlappingRendering="false"
+        android:text="b"
+        android:backgroundTint="@color/yellow"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginRight="175dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/d"
+        android:layout_width="56dp"
+        android:layout_height="268dp"
+        android:background="@drawable/whitekey"
+        android:layout_marginTop="25dp"
+        android:forceHasOverlappingRendering="false"
+        android:text="d"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginRight="455dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+
+    <ImageView
+        android:id="@+id/csharp"
+        android:layout_width="42dp"
+        android:layout_height="92dp"
+        android:text="c #"
+        android:textColor="@color/white"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        android:background="@drawable/blackkey"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="25dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="487dp" />
+
+    <ImageView
+        android:id="@+id/e"
+        android:layout_width="56dp"
+        android:layout_height="268dp"
+        android:background="@drawable/whitekey"
+        android:layout_marginTop="25dp"
+        android:forceHasOverlappingRendering="false"
+        android:text="e"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginRight="399dp"
+        app:layout_constraintRight_toRightOf="parent" />
+    <ImageView
+        android:id="@+id/dsharp"
+        android:layout_width="42dp"
+        android:layout_height="92dp"
+        android:text="d #"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/white"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        android:background="@drawable/blackkey"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="25dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="430dp" />
+    <ImageView
+        android:id="@+id/f"
+        android:layout_width="56dp"
+        android:layout_height="268dp"
+        android:background="@drawable/whitekey"
+        android:layout_marginTop="25dp"
+        android:forceHasOverlappingRendering="false"
+        android:text="f"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginRight="343dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="1.0" />
+    <ImageView
+        android:id="@+id/fsharp"
+        android:layout_width="42dp"
+        android:layout_height="92dp"
+        android:background="@drawable/blackkey"
+        android:layout_marginTop="25dp"
+        android:forceHasOverlappingRendering="false"
+        android:text="f #"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginRight="320dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/gsharp"
+        android:layout_width="42dp"
+        android:layout_height="92dp"
+        android:background="@drawable/blackkey"
+        android:layout_marginTop="25dp"
+        android:forceHasOverlappingRendering="false"
+        android:text="g #"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginRight="266dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/asharp"
+        android:layout_width="42dp"
+        android:layout_height="92dp"
+        android:background="@drawable/blackkey"
+        android:layout_marginTop="25dp"
+        android:forceHasOverlappingRendering="false"
+        android:text="A #"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:forceHasOverlappingRendering="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginRight="209dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+
+    <TextView
+        android:id="@+id/ctext"
+        android:layout_width="56dp"
+        android:layout_height="105dp"
+        android:text=" C "
+        android:textAlignment="gravity"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="127dp"
+        android:layout_marginLeft="25dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/dtext"
+        android:layout_width="56dp"
+        android:layout_height="105dp"
+        android:text=" D "
+        android:textAlignment="gravity"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="127dp"
+        android:layout_marginLeft="81dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/etext"
+        android:layout_width="56dp"
+        android:layout_height="105dp"
+        android:text=" E "
+        android:textAlignment="gravity"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="127dp"
+        android:layout_marginLeft="137dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+
+    <TextView
+        android:id="@+id/ftext"
+        android:layout_width="56dp"
+        android:layout_height="105dp"
+        android:text=" F "
+        android:textAlignment="gravity"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="127dp"
+        android:layout_marginLeft="193dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/gtext"
+        android:layout_width="56dp"
+        android:layout_height="105dp"
+        android:text=" G "
+        android:textAlignment="gravity"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="127dp"
+        android:layout_marginLeft="249dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/Atext"
+        android:layout_width="56dp"
+        android:layout_height="105dp"
+        android:text=" A "
+
+        android:textAlignment="gravity"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="127dp"
+        android:layout_marginLeft="305dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+
+    <TextView
+        android:id="@+id/Btext"
+        android:layout_width="56dp"
+        android:layout_height="105dp"
+        android:text=" B "
+        android:textAlignment="gravity"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="127dp"
+        android:layout_marginLeft="361dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/c2text"
+        android:layout_width="56dp"
+        android:layout_height="105dp"
+        android:text=" C "
+        android:textAlignment="gravity"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="127dp"
+        android:layout_marginLeft="417dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/csharptext"
+        android:layout_width="42dp"
+        android:layout_height="92dp"
+        android:text=" C# "
+        android:textColor="@color/white"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="63dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/dsharptext"
+        android:layout_width="42dp"
+        android:layout_height="92dp"
+        android:text=" D# "
+        android:textColor="@color/white"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="120dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/fsharptext"
+        android:layout_width="42dp"
+        android:layout_height="92dp"
+        android:text=" F# "
+        android:textColor="@color/white"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="230dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/gsharptext"
+        android:layout_width="42dp"
+        android:layout_height="92dp"
+        android:text=" G# "
+        android:textColor="@color/white"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="284dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/asharptext"
+        android:layout_width="42dp"
+        android:layout_height="92dp"
+        android:text=" A# "
+        android:textColor="@color/white"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="341dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

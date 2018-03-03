@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AmazingSpinner</string>
+    <string name="spinbuttonmessage">Spin</string>
+    <string name="homemessage">SELECT YOUR SPINNER</string>
+    <string name="redspinner">Red Spinner</string>
+    <string name="darkbluespinenr">Dark Blue Spinner</string>
+    <string name="blackSpinner">Black Spinner</string>
+    <string name="NeonSpinner">Neon Spinner </string>
+</resources>

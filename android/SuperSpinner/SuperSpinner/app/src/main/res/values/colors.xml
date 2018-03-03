@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorbackground">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="Black">#000</color>
+    <color name="lightblack">#000000</color>
+    <color name="textView">#F00F</color>
+    <color name="color">#0F4</color>
+    <color name="Navy">#001f3f</color>
+    <color name="Teal">#39CCCC</color>
+    <color name="Lime">#01FF70</color>
+    <color name="Aqua">#7FDBFF</color>
+    <color name="Silver">#DDDD</color>
+
+</resources>
